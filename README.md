@@ -25,14 +25,14 @@ This project implements a deep learning-based system to classify plant diseases 
 - **Strengths**: Best accuracy, excels with global feature relationships
 - **Compute**: GPU-intensive (~15GB VRAM required)
 
-### 2. Xception - **94.5% Accuracy**
+### 2. Xception - **89.5% Accuracy**
 - **Architecture**:
   - Depthwise separable convolutions
   - 71-layer deep
   - Modified FC layer for 38-class output
 - **Strengths**: Excellent accuracy with reasonable compute
 
-### 3. EfficientNetV2 - **93.8% Accuracy**
+### 3. EfficientNetB7 - **73.8% Accuracy**
 - **Architecture**:
   - Compound scaling (width/depth/resolution)
   - MBConv blocks with Fused-MBConv
@@ -80,8 +80,8 @@ This project implements a deep learning-based system to classify plant diseases 
 | Model          | Accuracy | Parameters | Inference Time (ms) | VRAM Usage |
 |----------------|----------|------------|---------------------|------------|
 | ViT            | 97.0%    | 86M        | 42                  | 15GB       |
-| Xception       | 94.5%    | 22M        | 28                  | 8GB        |
-| EfficientNetV2 | 93.8%    | 7M         | 18                  | 6GB        |
+| Xception       | 89.5%    | 22M        | 28                  | 8GB        |
+| EfficientNetB7 | 73.8%    | 7M         | 18                  | 6GB        |
 | ResNet50       | 92.1%    | 25M        | 22                  | 7GB        |
 | MobileNetV3    | 90.3%    | 2M         | 9                   | 3GB        |
 
@@ -147,7 +147,7 @@ For questions or collaborations:
 - Dhruvi Mahale
 [22cs036@charusat.edu.in]
 - Shruti Panchal
-[22cs036@charusat.edu.in] 
+[22cs044@charusat.edu.in] 
 - [[LinkedIn Profile](https://www.linkedin.com/in/dhruvi-mahale-4aa072258/)]  
 
 ---
